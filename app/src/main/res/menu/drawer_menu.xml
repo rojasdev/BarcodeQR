@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_api_qr"
+            android:icon="@drawable/icon_api"
+            android:title="@string/api_driven_qr" />
+
+        <item
+            android:id="@+id/nav_api_barcode"
+            android:icon="@drawable/icon_api"
+            android:title="@string/api_driven_barcode" />
+
+        <item
+            android:id="@+id/nav_native_qr"
+            android:icon="@drawable/icon_mobile"
+            android:title="@string/native_qr" />
+
+        <item
+            android:id="@+id/nav_native_barcode"
+            android:icon="@drawable/icon_mobile"
+            android:title="@string/native_barcode" />
+
+    </group>
+
+</menu>
